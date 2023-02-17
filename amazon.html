@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<style>
+    body{
+        height:500px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .left-bar .right-bar{
+        border-top: 1px solid gray;
+        width: 200px;
+    }
+    .new{
+        display: flex;
+    }
+    .bar-title{
+        margin-top: -20 px;
+        padding: 10px;
+        background-color: white;
+        color: gray;
+    }
+    form{
+        margin-top: 100px;
+    }
+</style>
+<body class="container-fluid d-flex justify-content-center align-items-center">
+<div>
+    <form class="border border-1 border-secondary p-4 mt-4">
+    <h2>Sign in</h2>
+    <div>
+        <label for="email" class="form-label"><b>Email or mobile phone number</b></label>
+        <div>
+            <input type="text" name="email" class="w-100 form-control" required>
+        </div>
+        </div>
+    <div class="mt-2">
+        <button class="btn btn-warning w-100">continue</button>
+    </div><br>
+    <div >
+        <label for="yes" class="form-label">Keep me logged in</label>
+        <div class="form-switch">
+            <input type="checkbox" class="form-check-input"><label class="form-check-label">Yes</label>
+        </div>
+    </div>
+    <div class="text-secondary mt-2">
+        <p>continuing,You agree to Amazon's <a href="#">Conditions of<br>
+        Use </a>and <a href="#">Privacy Notice</a></p>
+        </div><br>
+        <details class="mt-2">
+            <summary><a href="#">Need help?</a></summary>
+            <dl class="mt-2 me-2">
+                <dd><a href="#">forgot Password?</a></dd>
+                <dd><a href="#">Other issues with Sign-in</a></dd>
+            </dl>
+        </details>
+    
+   </form> 
+   <div class="mt-3">
+    <div class="new">
+        <div class="left-bar"></div>
+        <span class="bar-title">New to Amazon ?</span>
+        <div class="right-bar"></div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+   
